@@ -1,7 +1,7 @@
 {
   "name": "@dstanesc/idb-block-store",
   "description": "Local content-addressable storage (CAS) based on IndexedDB",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/dstanesc/idb-block-store",
   "repository": "https://github.com/dstanesc/idb-block-store",
   "license": "(Apache-2.0 AND MIT)",

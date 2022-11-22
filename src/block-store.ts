@@ -14,6 +14,8 @@ const blockStore = ({ cache }: { cache?: any }) => {
             bytes = cache[cid.toString()]
         if (!bytes) {
             bytes = await idbGet(cid.toString())
+            if (cache)
+                cache[cid.toString()] = bytes
         }
         return bytes
     }
